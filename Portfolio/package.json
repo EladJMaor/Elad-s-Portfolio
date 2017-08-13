@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Elad Maor's Portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-wait": "0.0.2",
+    "gulp-watch": "^4.3.11",
+    "mixitup": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elad Maor",
+  "license": "ISC"
+}

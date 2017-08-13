@@ -1,0 +1,62 @@
+.filters-menu
+    background: rgba(white, 0.7)
+    text-align: center
+    padding: 0.5em
+
+    & select
+        color: white
+        background: $green
+
+        font-family: 'Assistant', 'Segoe UI', Tahoma, sans-serif
+        font-size: 1.3em
+
+        border: none
+
+        height: 1.8em
+        width: 99%
+
+        @media screen and (min-width: $medium-brakepoint)
+            display: none
+        @media screen and (min-width: $large-brakepoint)
+            display: none
+        
+        & option
+            background: white
+            color: black
+            
+    & ul
+        display: flex
+
+        margin: 0 auto
+        width: 60%
+
+        justify-content: space-around
+        flex-wrap: wrap
+
+        @media screen and (max-width: $small-brakepoint)
+            display: none
+        @media screen and (min-width: $medium-brakepoint)
+            color: blue
+        @media screen and (min-width: $large-brakepoint)
+            color: red
+    & ul li
+        font-weight: 300
+
+        font-size: 1.3em
+        line-height: 1.8em
+
+        padding: 0 1em
+        margin: 0 .05em
+        
+        display: inline-block
+
+        transition: all .25s ease
+
+        &:hover
+            cursor: pointer
+            color: white
+            background: $green
+
+        &.active
+            color: white
+            background: $green

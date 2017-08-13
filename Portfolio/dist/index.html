@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elad Maor Portfolio</title>
+    
+    <!-- Assistant Font Embed -->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600&amp;subset=hebrew" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="./css/bundle.css">
+</head>
+
+<body dir="rtl">
+    <header class="jumbotron">
+        <div class="container">
+            <h1>אלעד מאור</h1>
+            <h3>תיק עבודות</h3>
+        </div>
+    </header>
+
+    <nav class="filters-menu">
+        <!-- for desktop and tablets -->
+        <ul>
+            <li class="filter active" data-filter=".graphics, .video, .programming, .photography, .sound, .other">הכל</li>
+            <li class="filter" data-filter=".graphics">גרפיקה</li>
+            <li class="filter" data-filter=".video">וידאו ואנימציה</li>
+            <li class="filter" data-filter=".programming">תכנות</li>
+            <li class="filter" data-filter=".photography">צילום</li>
+            <li class="filter" data-filter=".sound">סאונד</li>
+            <li class="filter" data-filter=".other">שונות</li>
+        </ul>
+        
+        <!-- for mobile -->
+        <select> 
+            <option selected="selected" data-filter=".graphics, .video, .programming, .photography, .sound, .other">הכל</option> 
+            <option data-filter=".graphics">גרפיקה</option> 
+            <option data-filter=".video">וידאו ואנימציה</option> 
+            <option data-filter=".programming">תכנות</option> 
+            <option data-filter=".photography">צילום</option>
+            <option data-filter=".sound">סאונד</option>
+            <option data-filter=".other">שונות</option>
+        </select> 
+    </nav>
+    
+    <!-- Script Files -->
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
